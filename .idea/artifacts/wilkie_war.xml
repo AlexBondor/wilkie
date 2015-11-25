@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="wilkie:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="wilkie.war">
+      <element id="artifact" artifact-name="wilkie:war exploded" />
+    </root>
+  </artifact>
+</component>
