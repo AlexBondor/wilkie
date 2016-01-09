@@ -11,7 +11,7 @@ public class Test {
 
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Hello world!");
+        model.addAttribute("message", "Test it out!");
         return "hello";
     }
 }
