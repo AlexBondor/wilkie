@@ -11,8 +11,8 @@
     <title>Register</title>
 </head>
 <body>
-<h1>${message}</h1>
-<form method="post" action="${pageContext.request.contextPath}/auth/register">
+<h1>Register page</h1>
+<form method="post" action="/register">
     <label for="email">email: </label>
     <input id="email" type="email" name="email">
     <span>${emailRegistered}</span>

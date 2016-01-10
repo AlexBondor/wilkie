@@ -31,7 +31,7 @@ public class MD5 {
         return null;
     }
 
-    public boolean matches(final String password, final String md5Hash) {
+    public static boolean matches(final String password, final String md5Hash) {
         return encrypt(password).equals(md5Hash);
     }
 }

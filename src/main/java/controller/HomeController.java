@@ -14,4 +14,10 @@ public class HomeController {
         model.addAttribute("message", "Test it out!");
         return "home/hello";
     }
+
+    @RequestMapping(value = "/dashboard", method = RequestMethod.GET)
+    public String dashboardGet(ModelMap model) {
+        model.addAttribute("message", "Test it out!");
+        return "user/dashboard";
+    }
 }
