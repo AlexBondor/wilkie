@@ -14,7 +14,7 @@
 <h1>${message}</h1>
 <form method="post" action="${pageContext.request.contextPath}/auth/register">
     <label for="email">email: </label>
-    <input id="email" type="text" name="email">
+    <input id="email" type="email" name="email">
     <span>${usernameTaken}</span>
     <br>
     <label for="password">password: </label>
