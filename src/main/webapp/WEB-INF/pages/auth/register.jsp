@@ -15,7 +15,7 @@
 <form method="post" action="${pageContext.request.contextPath}/auth/register">
     <label for="email">email: </label>
     <input id="email" type="email" name="email">
-    <span>${usernameTaken}</span>
+    <span>${emailRegistered}</span>
     <br>
     <label for="password">password: </label>
     <input id="password" type="password" name="password">
